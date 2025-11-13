@@ -1,0 +1,20 @@
+{
+  "name": "educationtrends",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "update:rss": "node scripts/update-rss.mjs"
+  },
+  "dependencies": {
+    "rss-parser": "^3.13.0",
+    "vue": "^3.5.12"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.1",
+    "vite": "^5.4.8"
+  }
+}
