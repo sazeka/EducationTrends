@@ -144,10 +144,20 @@
     {
       "sourceKey": "nytimes",
       "source": "NYT > Education",
+      "title": "A.I. Cheating Rattles Top Universities in South Korea",
+      "link": "https://www.nytimes.com/2025/11/14/world/asia/south-korea-ai-cheating-college.html",
+      "guid": "https://www.nytimes.com/2025/11/14/world/asia/south-korea-ai-cheating-college.html",
+      "pubDate": "2025-11-14T05:14:31.000Z",
+      "summary": "As many elite colleges struggle to adapt to the technology, the nation’s most prestigious universities said dozens of students used artificial intelligence tools to cheat.",
+      "image": null
+    },
+    {
+      "sourceKey": "nytimes",
+      "source": "NYT > Education",
       "title": "Texas A&M Tightens Rules on Talking About Race and Gender in Classes",
       "link": "https://www.nytimes.com/2025/11/13/us/texas-am-gender-race-ideology-rules-classroom.html",
       "guid": "https://www.nytimes.com/2025/11/13/us/texas-am-gender-race-ideology-rules-classroom.html",
-      "pubDate": "2025-11-13T23:17:23.000Z",
+      "pubDate": "2025-11-13T23:17:24.000Z",
       "summary": "The university system will ban advocacy of “race or gender ideology, or topics related to sexual orientation or gender identity” without approval.",
       "image": null
     },
@@ -167,8 +177,8 @@
       "title": "Government Shutdown Ends and Federal Workers Return",
       "link": "https://www.nytimes.com/2025/11/13/us/politics/shutdown-reopen-museums.html",
       "guid": "https://www.nytimes.com/2025/11/13/us/politics/shutdown-reopen-museums.html",
-      "pubDate": "2025-11-13T22:43:32.000Z",
-      "summary": "Government employees were expecting to see paychecks again as early as Nov. 20 after six weeks in limbo.",
+      "pubDate": "2025-11-14T00:17:09.000Z",
+      "summary": "Federal workers and poor Americans bore the brunt of the 43-day fiscal standoff, but it also took a toll on the broader economy.",
       "image": null
     },
     {
@@ -189,16 +199,6 @@
       "guid": "https://www.nytimes.com/2025/11/12/travel/leiden-netherlands-university.html",
       "pubDate": "2025-11-12T10:02:12.000Z",
       "summary": "Leiden, a city whose university is often called the Oxford of the Netherlands, features museums, gardens, murals and plenty of ways to stretch your mind.",
-      "image": null
-    },
-    {
-      "sourceKey": "nytimes",
-      "source": "NYT > Education",
-      "title": "College Romance Books That Will Make You Swoon",
-      "link": "https://www.nytimes.com/2025/11/12/books/college-romance-books.html",
-      "guid": "https://www.nytimes.com/2025/11/12/books/college-romance-books.html",
-      "pubDate": "2025-11-12T10:00:47.000Z",
-      "summary": "The explosive potential of those years makes every emotion more intense — and a perfect combo for rich storytelling.",
       "image": null
     }
   ]
