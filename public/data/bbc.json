@@ -1,0 +1,155 @@
+{
+  "feed": "bbc",
+  "items": [
+    {
+      "sourceKey": "bbc",
+      "source": "BBC News",
+      "title": "Why the shake-up of school inspections risks causing new problems",
+      "link": "https://www.bbc.com/news/articles/cg7nelkjp87o?at_medium=RSS&at_campaign=rss",
+      "guid": "https://www.bbc.com/news/articles/cg7nelkjp87o#0",
+      "pubDate": "2025-11-12T04:11:34.000Z",
+      "summary": "Ofsted's new 'traffic light' rating system comes into force this week - does this mark meaningful change or, as one expert puts it, 'high level tinkering'?",
+      "image": null
+    },
+    {
+      "sourceKey": "bbc",
+      "source": "BBC News",
+      "title": "Why Scotland's teachers want 90 minutes back",
+      "link": "https://www.bbc.com/news/articles/cvgmzz8r36yo?at_medium=RSS&at_campaign=rss",
+      "guid": "https://www.bbc.com/news/articles/cvgmzz8r36yo#0",
+      "pubDate": "2025-11-12T06:28:45.000Z",
+      "summary": "Scotland's teachers are preparing to vote on industrial action over workload and time spent in front of pupils.",
+      "image": null
+    },
+    {
+      "sourceKey": "bbc",
+      "source": "BBC News",
+      "title": "NI schools could be named and shamed over unaffordable uniforms",
+      "link": "https://www.bbc.com/news/articles/c1e3yej3q1jo?at_medium=RSS&at_campaign=rss",
+      "guid": "https://www.bbc.com/news/articles/c1e3yej3q1jo#0",
+      "pubDate": "2025-11-12T15:05:27.000Z",
+      "summary": "New uniform guidance to schools has been issued from the Department of Education.",
+      "image": null
+    },
+    {
+      "sourceKey": "bbc",
+      "source": "BBC News",
+      "title": "Nursery pays out £10,000 after toddler breaks leg on first day",
+      "link": "https://www.bbc.com/news/articles/cly174geyjdo?at_medium=RSS&at_campaign=rss",
+      "guid": "https://www.bbc.com/news/articles/cly174geyjdo#0",
+      "pubDate": "2025-11-12T15:20:18.000Z",
+      "summary": "Skye Tucker fell from a nappy changing table at Little Clouds Nursery in Altens, Aberdeen, in January this year.",
+      "image": null
+    },
+    {
+      "sourceKey": "bbc",
+      "source": "BBC News",
+      "title": "Fresh strike action begins at city university",
+      "link": "https://www.bbc.com/news/articles/cvgv7evzk78o?at_medium=RSS&at_campaign=rss",
+      "guid": "https://www.bbc.com/news/articles/cvgv7evzk78o#0",
+      "pubDate": "2025-11-11T16:20:29.000Z",
+      "summary": "Union members at Sheffield Hallam Uni strike in a dispute over job losses, workload and welfare.",
+      "image": null
+    },
+    {
+      "sourceKey": "bbc",
+      "source": "BBC News",
+      "title": "No special school places and kids are 'overlooked'",
+      "link": "https://www.bbc.com/news/articles/crmx177lw90o?at_medium=RSS&at_campaign=rss",
+      "guid": "https://www.bbc.com/news/articles/crmx177lw90o#0",
+      "pubDate": "2025-11-10T06:02:36.000Z",
+      "summary": "The council says the county's special schools are full to capacity.",
+      "image": null
+    },
+    {
+      "sourceKey": "bbc",
+      "source": "BBC News",
+      "title": "University staff to work to rule in job cuts row",
+      "link": "https://www.bbc.com/news/articles/c5yl417g76jo?at_medium=RSS&at_campaign=rss",
+      "guid": "https://www.bbc.com/news/articles/c5yl417g76jo#0",
+      "pubDate": "2025-11-10T06:21:28.000Z",
+      "summary": "The university is looking to save £30m amid rising costs and a fall in international student numbers.",
+      "image": null
+    },
+    {
+      "sourceKey": "bbc",
+      "source": "BBC News",
+      "title": "What is Ofsted and how will the new school ratings work?",
+      "link": "https://www.bbc.com/news/articles/cz0xe4zmpeyo?at_medium=RSS&at_campaign=rss",
+      "guid": "https://www.bbc.com/news/articles/cz0xe4zmpeyo#1",
+      "pubDate": "2025-11-10T17:20:43.000Z",
+      "summary": "The system is changing after the death of head Ruth Perry highlighted the pressure of inspections.",
+      "image": null
+    },
+    {
+      "sourceKey": "bbc",
+      "source": "BBC News",
+      "title": "Tutoring a baby to make him an 'English gentleman' - Is it worth the money?",
+      "link": "https://www.bbc.com/news/articles/cd9kljww1zdo?at_medium=RSS&at_campaign=rss",
+      "guid": "https://www.bbc.com/news/articles/cd9kljww1zdo#1",
+      "pubDate": "2025-11-10T08:38:50.000Z",
+      "summary": "The advert seeks \"an extraordinary tutor\" required \"to support child on his first steps to becoming an English gentleman.\"",
+      "image": null
+    },
+    {
+      "sourceKey": "bbc",
+      "source": "BBC News",
+      "title": "Can teacher shortages be solved by attracting career changers?",
+      "link": "https://www.bbc.com/news/articles/c5ydez7dg0lo?at_medium=RSS&at_campaign=rss",
+      "guid": "https://www.bbc.com/news/articles/c5ydez7dg0lo#1",
+      "pubDate": "2025-11-02T07:24:32.000Z",
+      "summary": "The North East has seen the biggest fall in trainee teachers in England, down by 56% since 2019-20.",
+      "image": null
+    },
+    {
+      "sourceKey": "bbc",
+      "source": "BBC News",
+      "title": "Not having the time of your life at uni? You're not alone",
+      "link": "https://www.bbc.com/news/articles/cn4jw1xxz7lo?at_medium=RSS&at_campaign=rss",
+      "guid": "https://www.bbc.com/news/articles/cn4jw1xxz7lo#1",
+      "pubDate": "2025-11-02T03:16:22.000Z",
+      "summary": "Many freshers come with high expectations of what they imagine will be the best years of their lives.",
+      "image": null
+    },
+    {
+      "sourceKey": "bbc",
+      "source": "BBC News",
+      "title": "Being autistic should not mean having to fight for our education",
+      "link": "https://www.bbc.com/news/articles/c891y5n2de8o?at_medium=RSS&at_campaign=rss",
+      "guid": "https://www.bbc.com/news/articles/c891y5n2de8o#1",
+      "pubDate": "2025-10-22T23:33:38.000Z",
+      "summary": "The Institute for Public Policy Research says there should be more comprehensive support for Send students in mainstream schools.",
+      "image": null
+    },
+    {
+      "sourceKey": "bbc",
+      "source": "BBC News",
+      "title": "Will my uni fees rise next year? What is a V-level? Your questions answered",
+      "link": "https://www.bbc.com/news/articles/crred9ljqz7o?at_medium=RSS&at_campaign=rss",
+      "guid": "https://www.bbc.com/news/articles/crred9ljqz7o#1",
+      "pubDate": "2025-10-21T17:00:26.000Z",
+      "summary": "The DfE has announced it will raise tuition fees every year, and will bring in new V-levels after GCSEs.",
+      "image": null
+    },
+    {
+      "sourceKey": "bbc",
+      "source": "BBC News",
+      "title": "What does university cost, and is it worth it?",
+      "link": "https://www.bbc.com/news/articles/cwyegp0dnq9o?at_medium=RSS&at_campaign=rss",
+      "guid": "https://www.bbc.com/news/articles/cwyegp0dnq9o#1",
+      "pubDate": "2025-10-21T10:39:56.000Z",
+      "summary": "With rising tuition fees and living costs, do higher graduate earnings cover the cost of a degree?",
+      "image": null
+    },
+    {
+      "sourceKey": "bbc",
+      "source": "BBC News",
+      "title": "How working parents can get 30 hours of free childcare",
+      "link": "https://www.bbc.com/news/articles/cql26knn4kzo?at_medium=RSS&at_campaign=rss",
+      "guid": "https://www.bbc.com/news/articles/cql26knn4kzo#1",
+      "pubDate": "2025-09-25T08:23:48.000Z",
+      "summary": "Free childcare support for working parents varies across the UK, depending on the child's age.",
+      "image": null
+    }
+  ]
+}
