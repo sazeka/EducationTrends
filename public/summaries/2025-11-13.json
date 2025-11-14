@@ -1,0 +1,252 @@
+{
+  "date": "2025-11-13",
+  "overview": {
+    "headline": "Daily Education Brief",
+    "summary": "Here are the top 10 news articles from the provided list, along with a brief summary of each:\n\n1. **Federal special education staff may get their jobs back. But for how long?** (NPR Topics: Education)\nThe US Department of Education has reversed layoffs of 465 staff members, but employees fear they won't return to work as usual.\n\n2. **Ed. Dept. Layoffs Are Reversed, But Staff Fear Things Won't Return to Normal** (Education Week)\nThe US Department of Education has reversed layoffs of 465 staff members, but employees fear they won't return to work as usual.\n\n3. **Did You Follow This Week's Education News? Take This Quiz** (Education Week)\nThis quiz tests your knowledge of the latest education news and trends.\n\n4. **How Schools Are Navigating AI Advances** (EdWeek)\nThe Trump administration's executive order calls for training teachers in artificial intelligence, but some educators are skeptical about its impact on teaching.\n\n5. **He Helped Cities Anticipate Damage From Storms** (NYT > Education)\nAustin Becker, a climatologist, helped cities anticipate damage from storms by developing early warning systems.\n\n6. **Some schools in England taking up to six times more special needs pupils t",
+    "bullets": [],
+    "tags": []
+  },
+  "items": [
+    {
+      "title": "‘Reframes history’: fears Māori knowledge diluted in plan to revise New Zealand curriculum",
+      "source": "Education | The Guardian",
+      "url": "https://www.theguardian.com/world/2025/nov/14/new-zealand-history-curriculum-rewrite-nz-maori-aotearoa",
+      "date": "2025-11-14T03:42:53.000Z",
+      "summary": "```\n{\n  \"title\": \"‘Reframes history’: fears M\\u00e1ori knowledge diluted in plan to revise New Zealand curriculum\",\n  \"source\": \"Education | The Guardian\",\n  \"url\": \"https://www.theguardian.com/world/2025/nov/14/new-zealand-history-curriculum-rewrite-nz-maori-aotearoa\",\n  \"date\": \"2025-11-14T03:42:53.000Z\",\n  \"summary\": \"New Zealand's government plans to rewrite the country's history curriculum, removing and revising Māori content, sparking fears that it will dilute Māori knowledge. Critics argue that the changes are politically-driven and part of a wider attack on Māori language and culture.\",\n  \"bullets\": [\n    \"Critics argue that the changes are politically-driven and part of a wider attack on Māori language and culture.\",\n    \"The proposed curriculum covers students in primary to junio",
+      "bullets": [],
+      "tags": []
+    },
+    {
+      "title": "Councils Warn of 'Total Collapse' in Special Needs System",
+      "source": "BBC News",
+      "url": "https://www.bbc.com/news/articles/c9v127xp2r4o?at_medium=RSS&at_campaign=rss",
+      "date": "2025-11-14T00:58:16.000Z",
+      "summary": "Councils in England are warning of a 'total collapse' in the special educational needs and disabilities system due to increasing demand and deficits. The County Councils Network says councils will face £4.4bn annual deficits by 2029, with demand for support expected to increase.",
+      "bullets": [
+        "The number of Education Health and Care Plans (EHCPs) has increased by 10.8% to 638,745 in January 2025",
+        "Demand for EHCPs alone is not the only factor driving spiralling expenditure, with 'over-reliance on higher costs placements and special provision' also a factor"
+      ],
+      "tags": [
+        "special-needs",
+        "policy",
+        "equity",
+        "government-reform"
+      ]
+    },
+    {
+      "title": "Government Shutdown Ends and Federal Workers Return",
+      "source": "NYT > Education",
+      "url": "https://www.nytimes.com/2025/11/13/us/politics/shutdown-reopen-museums.html",
+      "date": "2025-11-14T00:17:09.000Z",
+      "summary": "Here is the summary in STRICT JSON format:\n\n```\n{\n  \"title\": \"Government Shutdown Ends and Federal Workers Return\",\n  \"source\": \"NYT > Education\",\n  \"url\": \"https://www.nytimes.com/2025/11/13/us/politics/shutdown-reopen-museums.html\",\n  \"date\": \"2025-11-14T00:17:09.000Z\",\n  \"summary\": \"The federal government shutdown has ended, and federal workers have returned to work. The reopening of museums and other federal facilities is expected to bring relief to employees who were affected by the shutdown.\",\n  \"bullets\": [\n    \"Federal workers will receive back pay for the time they were without pay during the shutdown.\",\n    \"Museums and other federal facilities are expected to reopen on Wednesday.\",\n    \"The shutdown had a significant impact on federal employees, many of whom were forced to take ",
+      "bullets": [],
+      "tags": []
+    },
+    {
+      "title": "Texas A&M Tightens Rules on Talking About Race and Gender in Classes",
+      "source": "NYT > Education",
+      "url": "https://www.nytimes.com/2025/11/13/us/texas-am-gender-race-ideology-rules-classroom.html",
+      "date": "2025-11-13T23:17:24.000Z",
+      "summary": "Here is the summary in STRICT JSON format:\n\n{\n  \"title\": \"Texas A&M Tightens Rules on Talking About Race and Gender in Classes\",\n  \"source\": \"NYT > Education\",\n  \"url\": \"https://www.nytimes.com/2025/11/13/us/texas-am-gender-race-ideology-rules-classroom.html\",\n  \"date\": \"2025-11-13T23:17:24.000Z\",\n  \"summary\": \"Texas A&M University has implemented new rules requiring faculty to get permission from the university's provost before discussing certain topics, including race and gender ideology in classes. The move is seen as an attempt to promote academic freedom and protect students from 'ideological indoctrination'. Critics argue that the policy will stifle critical thinking and limit discussions on sensitive topics.\",\n  \"bullets\": [\n    \"The new rules require faculty to submit a request for",
+      "bullets": [],
+      "tags": []
+    },
+    {
+      "title": "Teaching During Menopause? You May Want to Hear This News",
+      "source": "Feeds",
+      "url": "https://www.edweek.org/teaching-learning/teaching-during-menopause-you-may-want-to-hear-this-news/2025/11",
+      "date": "2025-11-13T22:39:52.000Z",
+      "summary": "```\n{\n  \"title\": \"Teaching During Menopause? You May Want to Hear This News\",\n  \"source\": \"EdWeek\",\n  \"url\": \"https://www.edweek.org/teaching-learning/teaching-during-menopause-you-may-want-to-hear-this-news/2025/11\",\n  \"date\": \"2025-11-13T22:39:52.000Z\",\n  \"summary\": \"The FDA is removing warnings from hormone replacement therapy (HRT) for menopause, making it safer for women to discuss with their doctors. This change may lead to more open support in the workplace, benefiting K-12 teachers and administrators who are disproportionately affected by menopausal symptoms.\",\n  \"bullets\": [\n    \"77% of K-12 public school teachers are women\",\n    \"51% of all K-12 teachers are in their 40s and 50s\",\n    \"Menopause affects work productivity, but many women suffer in silence\"\n  ],\n  \"tags\": [\n    \"me",
+      "bullets": [],
+      "tags": []
+    },
+    {
+      "title": "Schools Have the Special Educators—But Keep Losing Them to General Ed.",
+      "source": "Feeds",
+      "url": "https://www.edweek.org/teaching-learning/schools-have-the-special-educators-but-keep-losing-them-to-general-ed/2025/11",
+      "date": "2025-11-13T22:23:18.000Z",
+      "summary": "```\n{\n  \"title\": \"Schools Have the Special Educators—But Keep Losing Them to General Ed.\",\n  \"source\": \"Education Week\",\n  \"url\": \"https://www.edweek.org/teaching-learning/schools-have-the-special-educators-but-keep-losing-them-to-general-ed/2025/11\",\n  \"date\": \"2025-11-13T22:23:18.000Z\",\n  \"summary\": \"A new study finds that schools struggle to retain special education teachers, with nearly 15% leaving their positions each year. The study highlights the need for targeted mentoring and professional development to support these educators.\",\n  \"bullets\": [\n    \"More than a third of public schools ran short-staffed in special education in 2024-25 across wealthy and high-poverty schools alike.\"\n    \"18 states provide financial incentives, but far fewer offer sufficient targeted mentoring and pr",
+      "bullets": [],
+      "tags": []
+    },
+    {
+      "title": "Are college students getting too many A's?",
+      "source": "NPR Topics: Education",
+      "url": "https://www.npr.org/2025/11/13/nx-s1-5604885/are-college-students-getting-too-many-as",
+      "date": "2025-11-13T22:23:06.000Z",
+      "summary": "```\n{\n  \"title\": \"Are college students getting too many A's?\",\n  \"source\": \"NPR Topics: Education\",\n  \"url\": \"https://www.npr.org/2025/11/13/nx-s1-5604885/are-college-students-getting-too-many-as\",\n  \"date\": \"2025-11-13T22:23:06.000Z\",\n  \"summary\": \"Harvard University officials report a significant increase in grade inflation, with over 60% of grades awarded as A's, up 25% from two decades ago.\",\n  \"bullets\": [\n    \"Grade inflation affects student learning and academic rigor\",\n    \"Increased ease in earning high grades may not accurately reflect student abilities\",\n    \"Concerns raised about the impact on higher education institutions\"\n  ],\n  \"tags\": [\"grade-inflation\", \"higher-ed\", \"equity\", \"academic-rigor\"]\n}\n```",
+      "bullets": [],
+      "tags": []
+    },
+    {
+      "title": "These Students Are Using AI to Visualize Their Reading Comprehension",
+      "source": "Feeds",
+      "url": "https://www.edweek.org/technology/video-these-students-are-using-ai-to-visualize-their-reading-comprehension/2025/11",
+      "date": "2025-11-13T22:00:06.000Z",
+      "summary": "```\n{\n  \"title\": \"Students Use AI to Visualize Reading Comprehension\",\n  \"source\": \"Education Week\",\n  \"url\": \"https://www.edweek.org/technology/video-these-students-are-using-ai-to-visualize-their-reading-comprehension/2025/11\",\n  \"date\": \"2025-11-13T22:00:06.000Z\",\n  \"summary\": \"Middle school students use AI to create visual representations of their reading comprehension, benefiting English-learner students and students with varying reading levels.\",\n  \"bullets\": [\n    \"Students use Adobe Express to generate images based on prompts created from a read passage\",\n    \"Helps English-learner students understand non-text representations of what they're reading\",\n    \"Beneficial for students with varying reading levels\"\n  ],\n  \"tags\": [\n    \"ai-in-literacy\",\n    \"middle-school-education\",\n    ",
+      "bullets": [],
+      "tags": []
+    },
+    {
+      "title": "Indiana Professor Removed From Class Over White Supremacy Lesson",
+      "source": "NYT > Education",
+      "url": "https://www.nytimes.com/2025/11/13/us/indiana-university-professor-white-supremacy-lesson.html",
+      "date": "2025-11-13T21:31:49.000Z",
+      "summary": "Here is the summary in STRICT JSON format:\n\n{\n  \"title\": \"Indiana Professor Removed From Class Over White Supremacy Lesson\",\n  \"source\": \"NYT > Education\",\n  \"url\": \"https://www.nytimes.com/2025/11/13/us/indiana-university-professor-white-supremacy-lesson.html\",\n  \"date\": \"2025-11-13T21:31:49.000Z\",\n  \"summary\": \"An Indiana University professor was removed from a class after teaching a lesson on white supremacy, sparking concerns about academic freedom and diversity. The incident highlights the ongoing debate about how to address racism in higher education.\",\n  \"bullets\": [\n    \"Professor removed from class due to controversy\",\n    \"Lesson on white supremacy sparked student complaints\",\n    \"University administration intervened to prevent further disruption\"\n  ],\n  \"tags\": [\n    \"higher-ed",
+      "bullets": [],
+      "tags": []
+    },
+    {
+      "title": "A New Twist in the Legal Battle Over Trump's Cancellation of Teacher-Prep Grants",
+      "source": "Feeds",
+      "url": "https://www.edweek.org/policy-politics/a-new-twist-in-the-legal-battle-over-trumps-cancellation-of-teacher-prep-grants/2025/11",
+      "date": "2025-11-13T21:00:04.000Z",
+      "summary": "```json\n{\n  \"title\": \"Federal Judge Rules Against Restoration of Teacher-Prep Grants\",\n  \"source\": \"Education Week\",\n  \"url\": \"https://www.edweek.org/policy-politics/a-new-twist-in-the-legal-battle-over-trumps-cancellation-of-teacher-prep-grants/2025/11\",\n  \"date\": \"2025-11-13T21:00:04.000Z\",\n  \"summary\": \"A federal judge has ruled that she cannot order the restoration of millions of dollars in funding for teacher-training grants, but retains the ability to decide if the Trump administration broke the law in terminating them.\",\n  \"bullets\": [\n    \"The case involves over $250 million in grant awards for more than 40 teacher-training programs in eight states.\",\n    \"The Education Department cited an emphasis on diversity, equity, and inclusion when it ended the grants in February.\",\n    \"The",
+      "bullets": [],
+      "tags": []
+    },
+    {
+      "title": "How Much Screen Time Is Your Child Getting at School? We Asked 350 Teachers.",
+      "source": "NYT > Education",
+      "url": "https://www.nytimes.com/2025/11/12/upshot/teachers-survey-chromebooks-class.html",
+      "date": "2025-11-13T20:54:26.000Z",
+      "summary": "Here is the summary in STRICT JSON format:\n\n{\n  \"title\": \"How Much Screen Time Is Your Child Getting at School? We Asked 350 Teachers\",\n  \"source\": \"NYT > Education\",\n  \"url\": \"https://www.nytimes.com/2025/11/12/upshot/teachers-survey-chromebooks-class.html\",\n  \"date\": \"2025-11-13T20:54:26.000Z\",\n  \"summary\": \"A survey of 350 teachers found that students are spending an average of 2 hours and 45 minutes per day on screens at school, with some schools reporting as much as 4 hours. The study highlights concerns about the impact of screen time on children's physical and mental health.\",\n  \"bullets\": [\n    \"Average screen time per day: 2 hours and 45 minutes\",\n    \"Some schools report up to 4 hours of screen time per day\",\n    \"Concerns about impact on physical and mental health\"\n  ],\n  \"tags\"",
+      "bullets": [],
+      "tags": []
+    },
+    {
+      "title": "NYC Teens Could Soon Bank at School as Part of a New Initiative",
+      "source": "Feeds",
+      "url": "https://www.edweek.org/teaching-learning/nyc-teens-could-soon-bank-at-school-as-part-of-a-new-initiative/2025/11",
+      "date": "2025-11-13T20:49:36.000Z",
+      "summary": "```\n{\n  \"title\": \"NYC Teens Could Soon Bank at School as Part of a New Initiative\",\n  \"source\": \"EdWeek\",\n  \"url\": \"https://www.edweek.org/teaching-learning/nyc-teens-could-soon-bank-at-school-as-part-of-a-new-initiative/2025/11\",\n  \"date\": \"2025-11-13T20:49:36.000Z\",\n  \"summary\": \"New York City Mayor Eric Adams announced a new pilot partnership to bring banking services to high schools, aiming to improve financial literacy and money management skills among teenagers.\",\n  \"bullets\": [\n    \"15 high schools in underserved neighborhoods will participate in the program\",\n    \"12 banks and financial institutions will provide in-school banking services\",\n    \"Workshops on responsible money management and banking will be offered\"\n  ],\n  \"tags\": [\n    \"financial-literacy\",\n    \"higher-ed\",\n    \"eq",
+      "bullets": [],
+      "tags": []
+    },
+    {
+      "title": "When ICE Arrests Rise, Student Test Scores Fall, New Study Suggests",
+      "source": "Feeds",
+      "url": "https://www.edweek.org/leadership/when-ice-arrests-rise-student-test-scores-fall-new-study-suggests/2025/11",
+      "date": "2025-11-13T20:38:26.000Z",
+      "summary": "```\n{\n  \"title\": \"When ICE Arrests Rise, Student Test Scores Fall, New Study Suggests\",\n  \"source\": \"Education Week\",\n  \"url\": \"https://www.edweek.org/leadership/when-ice-arrests-rise-student-test-scores-fall-new-study-suggests/2025/11\",\n  \"date\": \"2025-11-13T20:38:26.000Z\",\n  \"summary\": \"A new study found that when immigration enforcement arrests rise, student test scores fall, particularly among Hispanic and Spanish-speaking students. The research analyzed data from a school district in Florida and found that as immigration apprehensions spiked, Hispanic students' standardized state test scores declined on average.\",\n  \"bullets\": [\n    \"The negative effects on test scores were concentrated among middle and high school students.\",\n    \"Previously struggling, or low-performing, students ex",
+      "bullets": [],
+      "tags": []
+    },
+    {
+      "title": "Federal special education staff may get their jobs back. But for how long?",
+      "source": "NPR Topics: Education",
+      "url": "https://www.npr.org/2025/11/13/nx-s1-5608038/shutdown-special-education-department-layoffs",
+      "date": "2025-11-13T20:19:58.000Z",
+      "summary": "```\n{\n  \"title\": \"Federal special education staff may get their jobs back. But for how long?\",\n  \"source\": \"NPR Topics: Education\",\n  \"url\": \"https://www.npr.org/2025/11/13/nx-s1-5608038/shutdown-special-education-department-layoffs\",\n  \"date\": \"2025-11-13T20:19:58.000Z\",\n  \"summary\": \"A new deal to end the government shutdown may briefly restore staff to U.S. Education Department offices that had been gutted by layoffs.\",\n  \"bullets\": [\n    \"Staff may return to offices after brief restoration\",\n    \"Layoffs were part of broader department restructuring\",\n    \"Deal aims to end government shutdown and restore funding\"\n  ],\n  \"tags\": [\n    \"special-ed\", \n    \"government-shutdown\", \n    \"education-policy\"\n  ]\n}\n```",
+      "bullets": [],
+      "tags": []
+    },
+    {
+      "title": "Educators on the Six-Seven Trend: 'Embrace the Chaos'",
+      "source": "Feeds",
+      "url": "https://www.edweek.org/teaching-learning/educators-on-the-six-seven-trend-embrace-the-chaos/2025/11",
+      "date": "2025-11-13T19:38:03.000Z",
+      "summary": "```\n{\n  \"title\": \"Educators on the Six-Seven Trend: 'Embrace the Chaos'\",\n  \"source\": \"Education Week\",\n  \"url\": \"https://www.edweek.org/teaching-learning/educators-on-the-six-seven-trend-embrace-the-chaos/2025/11\",\n  \"date\": \"2025-11-13T19:38:03.000Z\",\n  \"summary\": \"Teachers are embracing the 'six-seven' trend, a viral meme that has taken over schools and social media. Despite its lack of meaning, educators have found it effective in getting students to stop using it in class. Some have even joined in on the trend, dressing up as the numbers six and seven for Halloween.\",\n  \"bullets\": [\n    \"Teachers tried different ways to get students to stop using 'six-seven', including banning it and finding alternative ways to engage students.\"\n    \"A majority of educators expressed they were embraci",
+      "bullets": [],
+      "tags": []
+    },
+    {
+      "title": "Did You Follow This Week's Education News? Take This Quiz",
+      "source": "Education Week",
+      "url": "https://www.edweek.org/education/did-you-follow-this-weeks-education-news-take-this-quiz/2025/11",
+      "date": "2025-11-13T19:15:11.000Z",
+      "summary": "This quiz tests your knowledge of the latest education news and trends. It covers topics such as leadership, policy, teaching, technology, and more. The quiz is designed to help you stay up-to-date on the latest developments in the field.",
+      "bullets": [
+        "- Test your knowledge on the latest news and trends in education.",
+        "- Explore the full stories behind the quiz questions.",
+        "- Learn how districts are strengthening MTSS to accelerate literacy growth."
+      ],
+      "tags": [
+        "education-news",
+        "policy",
+        "teaching"
+      ]
+    },
+    {
+      "title": "How Schools Are Navigating AI Advances",
+      "source": "Feeds",
+      "url": "https://www.edweek.org/events/k-12-essentials-forum/how-schools-are-navigating-ai-advances",
+      "date": "2025-11-13T19:00:00.000Z",
+      "summary": "```\n{\n  \"title\": \"How Schools Are Navigating AI Advances\",\n  \"source\": \"EdWeek\",\n  \"url\": \"https://www.edweek.org/events/k-12-essentials-forum/how-schools-are-navigating-ai-advances\",\n  \"date\": \"2025-11-13T19:00:00.000Z\",\n  \"summary\": \"The Trump administration's executive order calls for training teachers to use AI in classrooms, but most schools are already behind the curve on AI adoption. This forum explores how schools are navigating AI advances and finding a balance between its benefits and drawbacks.\",\n  \"bullets\": [\n    \"Educators and experts discuss the rising role of AI in schools and its impact on teaching and learning.\",\n    \"Schools are crafting AI use policies and building strategies to integrate technology into teaching, learning, and school management.\",\n    \"There is a growi",
+      "bullets": [],
+      "tags": []
+    },
+    {
+      "title": "A Blueprint for Structured Literacy: Building a Shared Vision for Classroom Success—Presented by the International Dyslexia Association",
+      "source": "Feeds",
+      "url": "https://www.edweek.org/events/webinar/a-blueprint-for-structured-literacy-building-a-shared-vision-for-classroom-success-presented-by-the-international-dyslexia-association",
+      "date": "2025-11-13T19:00:00.000Z",
+      "summary": "```\n{\n  \"title\": \"A Blueprint for Structured Literacy: Building a Shared Vision for Classroom Success\",\n  \"source\": \"Education Week\",\n  \"url\": \"https://www.edweek.org/events/webinar/a-blueprint-for-structured-literacy-building-a-shared-vision-for-classroom-success-presented-by-the-international-dyslexia-association\",\n  \"date\": \"2025-11-13T19:00:00.000Z\",\n  \"summary\": \"Experts discuss how to implement Structured Literacy in every classroom, sharing insights on effective literacy instruction and strategies for building lasting systemwide support.\",\n  \"bullets\": [\n    \"Panelists explore the science of reading and conditions necessary for effective implementation.\",\n    \"Districts share examples of successful implementation and overcoming challenges.\",\n    \"Moderator Margaret Goldberg leads a ",
+      "bullets": [],
+      "tags": []
+    },
+    {
+      "title": "Joe Wicks returns to celebrate reopening of school",
+      "source": "BBC News",
+      "url": "https://www.bbc.com/news/articles/ckgy42qzzrxo?at_medium=RSS&at_campaign=rss",
+      "date": "2025-11-13T16:37:33.000Z",
+      "summary": "```\n{\n  \"title\": \"Joe Wicks Returns to Celebrate Reopening of School\",\n  \"source\": \"BBC News\",\n  \"url\": \"https://www.bbc.com/news/articles/ckgy42qzzrxo?at_medium=RSS&at_campaign=rss\",\n  \"date\": \"2025-11-13T16:37:33.000Z\",\n  \"summary\": \"Celebrity fitness coach Joe Wicks returns to Yatton Infants School in Somerset, two and a half years after a fire damaged the building. The school has been rebuilt, and Wicks came to celebrate its reopening, giving the children a workout and promoting positivity.\",\n  \"bullets\": [\n    \"The school was badly damaged in a fire in May 2023, destroying half of the roof.\",\n    \"Wicks promised to return when the school was rebuilt, keeping his promise two and a half years later.\",\n    \"The children were given a 'little workout' by Wicks, who said it was 'lovely to c",
+      "bullets": [],
+      "tags": []
+    },
+    {
+      "title": "University staff to strike as jobs row escalates ",
+      "source": "BBC News",
+      "url": "https://www.bbc.com/news/articles/c740gwyvn74o?at_medium=RSS&at_campaign=rss",
+      "date": "2025-11-13T16:07:47.000Z",
+      "summary": "```\n{\n  \"title\": \"University Staff to Strike as Jobs Row Escalates\",\n  \"source\": \"BBC News\",\n  \"url\": \"https://www.bbc.com/news/articles/c740gvyv74o?at_medium=RSS&at_campaign=rss\",\n  \"date\": \"2025-11-13T16:07:47.000Z\",\n  \"summary\": \"Lancaster University staff will strike for two days in response to potential job losses due to £30m budget cuts. The University and College Union (UCU) is unhappy about the threat of compulsory redundancies, which would affect 400 full-time posts.\",\n  \"bullets\": [\n    \"Staff are walking out on November 27-28 in protest against 'devastating cuts'.\",\n    \"The university claims it's making 'very difficult but necessary decisions' due to financial pressures.\",\n    \"UCU general secretary Jo Grady says staff have been left with no choice to protect the university.\"\n ",
+      "bullets": [],
+      "tags": []
+    },
+    {
+      "title": "Ed. Dept. Layoffs Are Reversed, But Staff Fear Things Won't Return to Normal",
+      "source": "Education Week",
+      "url": "https://www.edweek.org/policy-politics/ed-dept-layoffs-are-reversed-but-staff-fear-things-wont-return-to-normal/2025/11",
+      "date": "2025-11-13T15:08:14.000Z",
+      "summary": "The US Department of Education has reversed layoffs of 465 staff members, but employees fear they won't return to work as usual. Staff have been resistant to reinstatement and worry about the department's ability to carry out key functions.",
+      "bullets": [
+        "Reversed layoffs will not restore offices that oversee key grant programs",
+        "Staff were kept on paid administrative leave, with some receiving millions of dollars each week",
+        "Employees fear continued uncertainty and threats of further layoffs"
+      ],
+      "tags": [
+        "education-policy",
+        "personnel",
+        "government-shutdown",
+        "higher-ed-staffing"
+      ]
+    },
+    {
+      "title": "How young is too young for gifted testing?",
+      "source": "The Hechinger Report",
+      "url": "https://hechingerreport.org/how-young-is-too-young-for-gifted-testing/",
+      "date": "2025-11-13T15:03:06.000Z",
+      "summary": "```\n{\n  \"title\": \"How Young is Too Young for Gifted Testing?\",\n  \"source\": \"The Hechinger Report\",\n  \"url\": \"https://hechingerreport.org/how-young-is-too-young-for-gifted-testing/\",\n  \"date\": \"2025-11-13T15:03:06.000Z\",\n  \"summary\": \"A two-tiered system in New Orleans allows families to pay for private testing, while others wait on a lengthy list, raising concerns about the fairness and equity of gifted-only programming for preschoolers.\",\n  \"bullets\": [\n    \"In New Orleans, families can pay $300 for private testing, while others wait on a lengthy list\",\n    \"Only a few children tested at the central office were deemed gifted in 2008\",\n    \"Research suggests that intelligence testing for high-stakes decisions can be influenced by money and privilege\"\n  ],\n  \"tags\": [\n    \"gifted-education\"",
+      "bullets": [],
+      "tags": []
+    },
+    {
+      "title": "He Helped Cities Anticipate Damage From Storms",
+      "source": "NYT > Education",
+      "url": "https://www.nytimes.com/2025/11/13/climate/austin-becker-coastal-flood-warning.html",
+      "date": "2025-11-13T10:00:05.000Z",
+      "summary": "Here is the summary in JSON format:\n\n{\n  \"title\": \"He Helped Cities Anticipate Damage From Storms\",\n  \"source\": \"NYT > Education\",\n  \"url\": \"https://www.nytimes.com/2025/11/13/climate/austin-becker-coastal-flood-warning.html\",\n  \"date\": \"2025-11-13T10:00:05.000Z\",\n  \"summary\": \"Austin Becker, a climate scientist at the University of Texas, developed a system to predict coastal flooding. This helps cities prepare for and respond to storms. The system uses data from sensors and satellites to identify areas at risk. It has been used by cities across the US to inform flood mitigation strategies.\",\n  \"bullets\": [\n    \"Predicts coastal flooding using sensor and satellite data\",\n    \"Helps cities prepare for and respond to storms\",\n    \"Used by cities across the US to inform flood mitigation stra",
+      "bullets": [],
+      "tags": []
+    },
+    {
+      "title": "Some schools in England taking up to six times more special needs pupils than others",
+      "source": "Education | The Guardian",
+      "url": "https://www.theguardian.com/education/2025/nov/13/schools-steer-away-special-needs-pupils-research-finds",
+      "date": "2025-11-13T07:02:13.000Z",
+      "summary": "```\n{\n  \"title\": \"Some schools in England taking up to six times more special needs pupils than others\",\n  \"source\": \"The Guardian\",\n  \"url\": \"https://www.theguardian.com/education/2025/nov/13/schools-steer-away-special-needs-pupils-research-finds\",\n  \"date\": \"2025-11-13T07:02:13.000Z\",\n  \"summary\": \"Research finds that some schools in England are taking up to six times more special needs pupils than others, leading to pressure on those schools and concerns about equity and inclusion.\",\n  \"bullets\": [\n    \"Some primary schools have 50% of pupils with identified special needs, while others have fewer than 5%.\",\n    \"Schools from deprived areas are more likely to have high numbers of children with special educational needs and disabilities (Send).\",\n    \"The government's delayed schools whit",
+      "bullets": [],
+      "tags": []
+    }
+  ]
+}

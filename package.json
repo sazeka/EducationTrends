@@ -7,9 +7,14 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "update:rss": "node scripts/update-rss.mjs"
+    "update:rss": "node scripts/update-rss.mjs",
+    "summarize": "node server/summarize.js"
   },
   "dependencies": {
+    "cheerio": "^1.1.2",
+    "dayjs": "^1.11.19",
+    "express": "^5.1.0",
+    "node-fetch": "^3.3.2",
     "rss-parser": "^3.13.0",
     "vue": "^3.5.12"
   },

@@ -1,146 +1,105 @@
 <script setup>
-import { ref, computed, onMounted, watch } from 'vue'
+import { ref, onMounted } from 'vue'
 import ArticleCard from './components/ArticleCard.vue'
 
-const sources = [
-  { key: 'all', label: 'All sources', file: 'education_all.json' },
-  { key: 'nytimes', label: 'NYTimes' },
-  { key: 'npr', label: 'NPR' },
-  { key: 'bbc', label: 'BBC' },
-  { key: 'edweek', label: 'Education Week' },
-  { key: 'hechinger', label: 'Hechinger' },
-  { key: 'insidehighered', label: 'Inside Higher Ed' },
-  { key: 'wapo_local_ed', label: 'Washington Post (Local Ed)' },
-  { key: 'guardian_edu', label: 'The Guardian (Education)' },
-  { key: 'edsurge', label: 'EdSurge' }
-]
-
-const current = ref(localStorage.getItem('edu-source') || 'all')
+const summaries = ref([])
+const date = ref('')
 const loading = ref(false)
 const error = ref('')
-const articles = ref([])
-const q = ref('')
+const overview = ref({ headline: '', summary: '', bullets: [], tags: [] })
 
-// NEW: date range
-const startDate = ref('')  // 'YYYY-MM-DD'
-const endDate   = ref('')  // 'YYYY-MM-DD'
-
-const filtered = computed(() => {
-  const term = q.value.trim().toLowerCase()
-  if (!term) return articles.value
-  return articles.value.filter(a =>
-    (a.title || '').toLowerCase().includes(term) ||
-    (a.summary || '').toLowerCase().includes(term) ||
-    (a.source || '').toLowerCase().includes(term)
-  )
-})
-
-// NEW: apply date range on top of text filter
-const dateFiltered = computed(() => {
-  if (!startDate.value && !endDate.value) return filtered.value
-  const sd = startDate.value ? new Date(`${startDate.value}T00:00:00`) : null
-  const ed = endDate.value   ? new Date(`${endDate.value}T23:59:59`)   : null
-  return filtered.value.filter(a => {
-    if (!a.pubDate) return false
-    const d = new Date(a.pubDate)
-    if (isNaN(d)) return false
-    if (sd && d < sd) return false
-    if (ed && d > ed) return false
-    return true
-  })
-})
-
-function formatDate(iso) {
-  const d = new Date(iso)
-  return d.toLocaleString(undefined, {
-    year: 'numeric', month: 'short', day: '2-digit', hour: '2-digit', minute: '2-digit'
-  })
-}
-
-async function loadFeed() {
+async function fetchSummaries(ymd = 'today') {
   loading.value = true
   error.value = ''
-  articles.value = []
   try {
-    const base = (import.meta.env.BASE_URL || './').replace(/\/$/, '')
-    const src = sources.find(s => s.key === current.value)
-    const file = src?.file || `${current.value}.json`
-    const url = `${base}/data/${file}?d=${Date.now()}`
-    const res = await fetch(url)
-    if (!res.ok) throw new Error(`Fetch failed: ${res.status} for ${url}`)
-    const json = await res.json()
-    articles.value = json.items || []
+    const res = await fetch(`/api/summarize/${ymd}`)
+    if (!res.ok) throw new Error(await res.text())
+    const data = await res.json()
+
+    summaries.value = (Array.isArray(data?.items) ? data.items : []).map(normalizeItem)
+    overview.value = normalizeOverview(data?.overview)
+    date.value = data?.date || (ymd === 'today' ? '' : ymd)
   } catch (e) {
-    console.error(e)
-    error.value = String(e.message || e)
+    error.value = typeof e?.message === 'string' ? e.message : 'Failed to load summaries.'
+    summaries.value = []
+    overview.value = { headline: '', summary: '', bullets: [], tags: [] }
   } finally {
     loading.value = false
   }
 }
 
-function setPreset(days) {
-  // days=1 -> today; 7 -> last 7 days; etc.
-  const now = new Date()
-  const end = new Date(now.getFullYear(), now.getMonth(), now.getDate())
-  const start = new Date(end)
-  start.setDate(start.getDate() - days + 1)
-  startDate.value = start.toISOString().slice(0, 10)
-  endDate.value = end.toISOString().slice(0, 10)
+function normalizeItem(item) {
+  return {
+    title: item?.title ?? '',
+    source: item?.source ?? 'Unknown',
+    url: item?.url ?? '',
+    date: item?.date ?? '',
+    summary: cleanText(item?.summary ?? ''),
+    bullets: Array.isArray(item?.bullets) ? item.bullets : [],
+    tags: Array.isArray(item?.tags) ? item.tags : []
+  }
 }
 
-function clearDates() {
-  startDate.value = ''
-  endDate.value = ''
+function normalizeOverview(o) {
+  if (!o || typeof o !== 'object') return { headline: '', summary: '', bullets: [], tags: [] }
+  return {
+    headline: o.headline || '',
+    summary: cleanText(o.summary || ''),
+    bullets: Array.isArray(o.bullets) ? o.bullets : [],
+    tags: Array.isArray(o.tags) ? o.tags : []
+  }
 }
 
-onMounted(loadFeed)
-watch(current, (v) => { localStorage.setItem('edu-source', v); loadFeed() })
+function cleanText(text) {
+  if (!text) return ''
+  return String(text)
+    .replace(/```+/g, '')                                     // strip code fences
+    .replace(/^{\s*"title"\s*:\s*".*?"[\s\S]*?}\s*$/g, '')    // strip stray raw JSON
+    .replace(/\s+/g, ' ')
+    .trim()
+}
+
+onMounted(() => fetchSummaries('today'))
+
+function refresh() {
+  fetchSummaries(date.value || 'today')
+}
 </script>
 
 <template>
-  <main class="container">
-    <header class="topbar">
-      <h1>Education News · Vue</h1>
-      <div class="controls">
-        <select v-model="current" title="Select source">
-          <option v-for="s in sources" :key="s.key" :value="s.key">{{ s.label }}</option>
-        </select>
-
-        <input v-model="q" type="search" placeholder="Search…" />
-
-        <!-- NEW: date range controls -->
-        <input v-model="startDate" type="date" :max="endDate || undefined" title="Start date" />
-        <input v-model="endDate" type="date" :min="startDate || undefined" title="End date" />
-
-        <button @click="() => setPreset(1)"  :disabled="loading">Today</button>
-        <button @click="() => setPreset(7)"  :disabled="loading">7d</button>
-        <button @click="() => setPreset(30)" :disabled="loading">30d</button>
-        <button @click="clearDates"          :disabled="loading">Clear</button>
-
-        <button @click="loadFeed" :disabled="loading">Refresh</button>
+  <main class="page">
+    <header style="display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:16px">
+      <h1 style="margin:0">AI Summaries for {{ date || 'Today' }}</h1>
+      <div>
+        <input type="date" :value="date" @change="e => fetchSummaries(e.target.value || 'today')" />
+        <button @click="refresh" style="margin-left:8px">{{ loading ? 'Loading…' : 'Refresh' }}</button>
       </div>
     </header>
 
-    <p v-if="error" class="error">Error: {{ error }}</p>
-    <p v-else-if="loading">Loading…</p>
-    <p v-else-if="!dateFiltered.length">No articles for this selection.</p>
+    <!-- GRAND DAILY SUMMARY -->
+    <section v-if="overview.summary" class="overview">
+      <h2 style="margin:0 0 6px">{{ overview.headline }}</h2>
+      <p style="margin:0 0 10px">{{ overview.summary }}</p>
+      <ul v-if="overview.bullets.length" style="margin:0 0 10px 18px">
+        <li v-for="b in overview.bullets" :key="b">{{ b }}</li>
+      </ul>
+      <div class="tags" v-if="overview.tags.length">
+        <span class="tag" v-for="t in overview.tags" :key="t">#{{ t }}</span>
+      </div>
+    </section>
 
-    <section class="grid">
-      <ArticleCard
-        v-for="a in dateFiltered"
-        :key="a.guid || a.link"
-        :article="a"
-        :format-date="formatDate"
-      />
+    <section v-if="error" class="overview" style="border-color:#f3b1b1;background:#fff5f5;color:#b42318">
+      ⚠️ {{ error }}
+    </section>
+
+    <!-- CARDS GRID -->
+    <section v-else class="cards-grid">
+      <ArticleCard v-for="it in summaries" :key="it.url || it.title" :item="it" />
     </section>
   </main>
 </template>
 
+
 <style scoped>
-.container { max-width: 1100px; margin: 0 auto; padding: 1rem; }
-.topbar { display: flex; align-items: center; justify-content: space-between; gap: 1rem; flex-wrap: wrap; }
-.controls { display: flex; gap: .5rem; align-items: center; flex-wrap: wrap; }
-.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1rem; margin-top: 1rem; }
-.error { color: #b00020; }
-select, input[type="search"], input[type="date"], button { padding: .45rem .6rem; }
+/* minimal; utility classes handle most styling */
 </style>
