@@ -1,42 +1,49 @@
-name: Deploy Vite site to GitHub Pages
-
+name: Deploy Vite site to Pages
 on:
   push:
     branches: [ main ]
-  workflow_dispatch:
-
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
-
-concurrency:
-  group: "pages"
-  cancel-in-progress: true
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - run: git clean -fdx
-      - uses: actions/setup-node@v4
-        with:
-          node-version: '20'
-          cache: 'npm'
-      - run: |
-          if [ -f package-lock.json ]; then npm ci; else npm install; fi
-      - run: npm run build
-      - uses: actions/upload-pages-artifact@v3
-        with:
-          path: ./dist
 
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - id: deployment
-        uses: actions/deploy-pages@v4
+      - name: Show repo tree (top level)
+        run: |
+          ls -la
+          echo "------ show vite config ------"
+          ls -la vite.config.*
+
+      - uses: actions/setup-node@v4
+        with: { node-version: '20' }
+
+      - run: npm ci
+      - run: node -v && npx vite --version
+
+      # Build
+      - run: npm run build
+
+      # SPA + Pages fixes
+      - run: cp dist/index.html dist/404.html
+      - run: touch dist/.nojekyll
+
+      # DEBUG: confirm built paths include /EducationTrends/
+      - name: Show built index header
+        run: |
+          sed -n '1,60p' dist/index.html | sed -n '1,20p'
+          echo "------ asset lines ------"
+          grep -i assets dist/index.html || true
+
+      # Clean gh-pages then deploy dist/
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: gh-pages
+          publish_dir: ./dist
+          force_orphan: true
