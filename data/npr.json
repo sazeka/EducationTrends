@@ -1,0 +1,105 @@
+{
+  "feed": "npr",
+  "items": [
+    {
+      "sourceKey": "npr",
+      "source": "NPR Topics: Education",
+      "title": "Are college students getting too many A's?",
+      "link": "https://www.npr.org/2025/11/13/nx-s1-5604885/are-college-students-getting-too-many-as",
+      "guid": "https://www.npr.org/2025/11/13/nx-s1-5604885/are-college-students-getting-too-many-as",
+      "pubDate": "2025-11-13T22:23:06.000Z",
+      "summary": "Harvard University officials have recently raised the alarm on grade inflation. More than 60% of grades awarded to students have been A's. That's up 25% from two decades ago.",
+      "image": null
+    },
+    {
+      "sourceKey": "npr",
+      "source": "NPR Topics: Education",
+      "title": "Federal special education staff may get their jobs back. But for how long?",
+      "link": "https://www.npr.org/2025/11/13/nx-s1-5608038/shutdown-special-education-department-layoffs",
+      "guid": "https://www.npr.org/2025/11/13/nx-s1-5608038/shutdown-special-education-department-layoffs",
+      "pubDate": "2025-11-13T20:19:58.000Z",
+      "summary": "A new deal to end the government shutdown may briefly restore staff to U.S. Education Department offices that had been gutted by layoffs.",
+      "image": null
+    },
+    {
+      "sourceKey": "npr",
+      "source": "NPR Topics: Education",
+      "title": "For students who rely on SNAP, school food pantries offer some relief",
+      "link": "https://www.npr.org/2025/11/12/nx-s1-5598314-e1/for-students-who-rely-on-snap-school-food-pantries-offer-some-relief",
+      "guid": "https://www.npr.org/2025/11/12/nx-s1-5598314-e1/for-students-who-rely-on-snap-school-food-pantries-offer-some-relief",
+      "pubDate": "2025-11-12T21:45:36.000Z",
+      "summary": "A school in Pittsburgh has set up a food pantry for students and their families whose SNAP benefits have been cut or delayed because of the government shutdown.",
+      "image": null
+    },
+    {
+      "sourceKey": "npr",
+      "source": "NPR Topics: Education",
+      "title": "For students who rely on SNAP, school food pantries offer some relief",
+      "link": "https://www.npr.org/2025/11/11/nx-s1-5598314/high-school-food-pantry",
+      "guid": "https://www.npr.org/2025/11/11/nx-s1-5598314/high-school-food-pantry",
+      "pubDate": "2025-11-12T09:43:06.000Z",
+      "summary": "The food pantry at Brashear High School is open once a week, and each student gets about five minutes to shop. Any snacks they don't take often go to teachers, to offer to hungry pupils.",
+      "image": null
+    },
+    {
+      "sourceKey": "npr",
+      "source": "NPR Topics: Education",
+      "title": "Alaska's public schools can serve as emergency shelters. The buildings are in crisis",
+      "link": "https://www.npr.org/2025/11/10/g-s1-96847/alaska-schools-emergency-shelter-disaster",
+      "guid": "https://www.npr.org/2025/11/10/g-s1-96847/alaska-schools-emergency-shelter-disaster",
+      "pubDate": "2025-11-10T10:00:00.000Z",
+      "summary": "Alaska's public schools are being used as emergency shelters, though many of the buildings are crumbling.",
+      "image": null
+    },
+    {
+      "sourceKey": "npr",
+      "source": "NPR Topics: Education",
+      "title": "Judge says Education Dept. partisan out-of-office emails violated First Amendment",
+      "link": "https://www.npr.org/2025/11/08/nx-s1-5602859/education-department-out-of-office-emails-ruling",
+      "guid": "https://www.npr.org/2025/11/08/nx-s1-5602859/education-department-out-of-office-emails-ruling",
+      "pubDate": "2025-11-08T18:21:56.000Z",
+      "summary": "A federal judge says the Trump administration \"overplayed its hand\" by inserting partisan language into workers' out-of-office autoreplies.",
+      "image": null
+    },
+    {
+      "sourceKey": "npr",
+      "source": "NPR Topics: Education",
+      "title": "Public workers could be denied loan forgiveness if cities defy Trump, lawsuit alleges",
+      "link": "https://www.npr.org/2025/11/03/nx-s1-5591157/trump-pslf-teachers-loan-forgiveness",
+      "guid": "https://www.npr.org/2025/11/03/nx-s1-5591157/trump-pslf-teachers-loan-forgiveness",
+      "pubDate": "2025-11-03T16:10:38.000Z",
+      "summary": "A new lawsuit argues the latest changes to Public Service Loan Forgiveness could exclude public servants whose organizations have resisted President Trump's policies.",
+      "image": null
+    },
+    {
+      "sourceKey": "npr",
+      "source": "NPR Topics: Education",
+      "title": "A photographer captures life inside Chicago Public Schools",
+      "link": "https://www.npr.org/sections/the-picture-show/2025/11/01/nx-s1-5538425/life-inside-chicago-public-schools",
+      "guid": "https://www.npr.org/sections/the-picture-show/2025/11/01/nx-s1-5538425/life-inside-chicago-public-schools",
+      "pubDate": "2025-11-01T13:00:00.000Z",
+      "summary": "Melissa Ann Pinney's photographs capture everyday moments of adolescence inside Chicago Public Schools over the course of a seven-year artist residency.",
+      "image": null
+    },
+    {
+      "sourceKey": "npr",
+      "source": "NPR Topics: Education",
+      "title": "Fewer students are missing school. These state policies may have helped",
+      "link": "https://www.npr.org/2025/11/01/nx-s1-5576453/schools-absenteeism-states-pandemic",
+      "guid": "https://www.npr.org/2025/11/01/nx-s1-5576453/schools-absenteeism-states-pandemic",
+      "pubDate": "2025-11-01T09:00:00.000Z",
+      "summary": "A new study says several states are doing the right things to get students to show up to school regularly.",
+      "image": null
+    },
+    {
+      "sourceKey": "npr",
+      "source": "NPR Topics: Education",
+      "title": "Shutdown puts thousands of schoolkids at risk of losing Head Start services",
+      "link": "https://www.npr.org/2025/10/30/nx-s1-5587604/shutdown-puts-thousands-of-schoolkids-at-risk-of-losing-head-start-services",
+      "guid": "https://www.npr.org/2025/10/30/nx-s1-5587604/shutdown-puts-thousands-of-schoolkids-at-risk-of-losing-head-start-services",
+      "pubDate": "2025-10-30T20:08:07.000Z",
+      "summary": "If the government shutdown isn't resolved by Nov. 1, some 65,000 low-income children will be at-risk of losing access to Head Start child care and early learning.",
+      "image": null
+    }
+  ]
+}

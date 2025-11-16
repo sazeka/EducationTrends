@@ -1,0 +1,15 @@
+{
+  "feed": "wapo_local_ed",
+  "items": [
+    {
+      "sourceKey": "wapo_local_ed",
+      "source": "Local Education",
+      "title": "D.C. middle-schooler sent to hospital after consuming edible ",
+      "link": "https://www.washingtonpost.com/dc-md-va/2025/11/12/edible-kramer-middle-school-dc-students/",
+      "guid": "https://www.washingtonpost.com/dc-md-va/2025/11/12/edible-kramer-middle-school-dc-students/",
+      "pubDate": "2025-11-12T22:29:10.000Z",
+      "summary": "A student brought a “food item containing a controlled substance” to Kramer Middle School in D.C. and shared it with classmates, the principal told parents.",
+      "image": null
+    }
+  ]
+}
